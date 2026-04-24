@@ -23,7 +23,7 @@ const greeting = {
   username: "Williams Alayode",
   title: "Hi all, I'm Williams",
   subTitle: emoji(
-   "A Software Developer specializing in backend development with Django, while also building responsive and user-friendly frontend applications. I focus on creating scalable APIs and efficient web solutions."
+    "A Software Developer specializing in backend development with Django, while also building responsive and user-friendly frontend applications. I focus on creating scalable APIs and efficient web solutions."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1V6ePqOeQNwV79IjK742oDLSqiw3Zw8Xt/view?usp=sharing", // Set to empty to hide the button
@@ -46,28 +46,29 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Software Developer focused on building scalable backend systems with Django and creating responsive frontend applications",
+  subTitle:
+    "Software Developer focused on building scalable backend systems with Django and creating responsive frontend applications",
   skills: [
-  emoji("⚡ Build scalable REST APIs using Django & Django REST Framework"),
-  emoji("⚡ Design and manage databases (PostgreSQL, SQLite)"),
-  emoji("⚡ Integrate frontend applications with backend APIs"),
-  emoji("⚡ Develop responsive user interfaces with React"),
-],
+    emoji("⚡ Build scalable REST APIs using Django & Django REST Framework"),
+    emoji("⚡ Design and manage databases (PostgreSQL, SQLite)"),
+    emoji("⚡ Integrate frontend applications with backend APIs"),
+    emoji("⚡ Develop responsive user interfaces with React")
+  ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-  { skillName: "Django", fontAwesomeClassname: "fas fa-code" },
-  { skillName: "Django REST", fontAwesomeClassname: "fas fa-server" },
-  // { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-  { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-  // { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-  { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-  { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" }
-],
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "Django", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "Django REST", fontAwesomeClassname: "fas fa-server"},
+    // { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    // { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"}
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -81,14 +82,14 @@ const educationInfo = {
       logo: require("./assets/images/alx2.png"),
       subHeader: "ALX Software Engineering Program",
       duration: "September 2025 - April 2026",
-      desc: "Studied software development and built backend-focused applications.",
+      desc: "Studied software development and built backend-focused applications."
     },
     {
       schoolName: "Google",
       logo: require("./assets/images/Google.png"),
       subHeader: "Google UX Design Certificate",
       duration: "February 2022 - September 2022",
-      desc: "Completed Google UX Design Certification, gaining hands-on experience in user research, wireframing, prototyping, and designing user-centered digital products.",
+      desc: "Completed Google UX Design Certification, gaining hands-on experience in user research, wireframing, prototyping, and designing user-centered digital products."
     }
   ]
 };
@@ -120,16 +121,16 @@ const workExperiences = {
   display: true,
   experience: [
     {
-     role: "Software Developer (Backend & Full-Stack)",
-  company: "Freelance Developer",
-  companylogo: require("./assets/images/freelance.webp"),
-  date: "2024 – Present",
-  desc: "Developing backend systems and full-stack applications using Django, Next.js, and Supabase.",
-  descBullets: [
-    "Built REST APIs using Django REST Framework",
-    "Developed SaaS applications using Next.js and Supabase",
-    "Implemented authentication and database systems",
-    "Collaborated on software projects"
+      role: "Software Developer (Backend & Full-Stack)",
+      company: "Freelance Developer",
+      companylogo: require("./assets/images/freelance.webp"),
+      date: "2024 – Present",
+      desc: "Developing backend systems and full-stack applications using Django, Next.js, and Supabase.",
+      descBullets: [
+        "Built REST APIs using Django REST Framework",
+        "Developed SaaS applications using Next.js and Supabase",
+        "Implemented authentication and database systems",
+        "Collaborated on software projects"
       ]
     }
   ]
@@ -147,12 +148,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SaaS applications and backend systems I have built using Django, Next.js, and modern web technologies",
+  subtitle:
+    "SaaS applications and backend systems I have built using Django, Next.js, and modern web technologies",
   projects: [
     {
       image: require("./assets/images/api.png"),
       projectName: "Job Tracker API",
-      projectDesc: "A Django REST API for managing job applications with authentication, role-based access, and full CRUD functionality.",
+      projectDesc:
+        "A Django REST API for managing job applications with authentication, role-based access, and full CRUD functionality.",
       footerLink: [
         {
           name: "GitHub",
@@ -163,7 +166,8 @@ const bigProjects = {
     {
       image: require("./assets/images/dashboard.jpeg"),
       projectName: "SaaS Web Application",
-      projectDesc: "A full-stack SaaS platform built with Next.js and Supabase featuring authentication, database management, and user dashboards.",
+      projectDesc:
+        "A full-stack SaaS platform built with Next.js and Supabase featuring authentication, database management, and user dashboards.",
       footerLink: [
         {
           name: "GitHub",
@@ -179,7 +183,8 @@ const bigProjects = {
 
 const achievementSection = {
   title: "Certifications & Achievements",
-  subtitle: "Relevant certifications and accomplishments in software development and design",
+  subtitle:
+    "Relevant certifications and accomplishments in software development and design",
 
   achievementsCards: [
     {
@@ -272,7 +277,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-    // resumeLink: "https://drive.google.com/file/d/1V6ePqOeQNwV79IjK742oDLSqiw3Zw8Xt/view?usp=sharing",
+  // resumeLink: "https://drive.google.com/file/d/1V6ePqOeQNwV79IjK742oDLSqiw3Zw8Xt/view?usp=sharing",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
