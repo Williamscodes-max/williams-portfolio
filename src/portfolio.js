@@ -26,7 +26,7 @@ const greeting = {
     "A Software Developer specializing in backend development with Django, while also building responsive and user-friendly frontend applications. I focus on creating scalable APIs and efficient web solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1V6ePqOeQNwV79IjK742oDLSqiw3Zw8Xt/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1N8dqXUW_s6uRzVioTLAVS9ZIkpsGvvqy/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -84,6 +84,15 @@ const educationInfo = {
       duration: "September 2025 - April 2026",
       desc: "Studied software development and built backend-focused applications."
     },
+
+    {
+      schoolName: "Udemy",
+      logo: require("./assets/images/udemy.webp"),
+      subHeader: "complete Python Bootcamp: Go from zero to hero in Python",
+      duration: "August 2024 - August 2024",
+      desc: "Completed the complete Python Bootcamp, gaining comprehensive knowledge of Python programming."
+    },
+    
     {
       schoolName: "Google",
       logo: require("./assets/images/Google.png"),
@@ -122,7 +131,7 @@ const workExperiences = {
   experience: [
     {
       role: "Software Developer (Backend & Full-Stack)",
-      company: "Freelance Developer",
+      company: "Software Developer",
       companylogo: require("./assets/images/freelance.webp"),
       date: "2024 – Present",
       desc: "Developing backend systems and full-stack applications using Django, Next.js, and Supabase.",
@@ -152,7 +161,7 @@ const bigProjects = {
     "SaaS applications and backend systems I have built using Django, Next.js, and modern web technologies",
   projects: [
     {
-      image: require("./assets/images/api.png"),
+      image: require("./assets/images/djangoframe.png"),
       projectName: "Job Tracker API",
       projectDesc:
         "A Django REST API for managing job applications with authentication, role-based access, and full CRUD functionality.",
