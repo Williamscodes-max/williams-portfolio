@@ -92,7 +92,7 @@ const educationInfo = {
       duration: "August 2024 - August 2024",
       desc: "Completed the complete Python Bootcamp, gaining comprehensive knowledge of Python programming."
     },
-    
+
     {
       schoolName: "Google",
       logo: require("./assets/images/Google.png"),
